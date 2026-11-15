@@ -1,0 +1,16 @@
+# Ejecutables y archivos temporales
+*.exe
+*.out
+*.test
+/bin/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# IDE / sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
